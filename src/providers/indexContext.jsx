@@ -1,5 +1,4 @@
 import { createContext, useState, useEffect } from "react";
-import moment from "moment";
 
 export const GlobalContext = createContext({});
 
@@ -173,8 +172,6 @@ export const GlobalProvider = ({ children }) => {
     totalDurationFX.hours = hours;
     totalDurationFX.minutes = minutes;
 
-    console.log(totalDurationFX);
-
     return totalDurationFX;
   };
 
@@ -258,7 +255,6 @@ export const GlobalProvider = ({ children }) => {
     }
 
     setArrayGraphic(results);
-    console.log(results);
   };
 
   useEffect(() => {

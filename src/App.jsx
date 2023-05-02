@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import FileInput from "./components/InputFile";
 import DaysInfoContainer from "./components/DaysInfo";
 import RechartsExample from "./components/Chart";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <DaysInfoContainer />
       <RechartsExample />
       <TableDaysContainer />
+      <Footer />
     </div>
   );
 }

@@ -27,7 +27,7 @@ const DaysInfoContainer = () => {
     <Container>
       {loading ? (
         <>
-          <Title> Importe um arquivo CSV para continuar...</Title>
+          <Title> Importe um arquivo TXT para continuar...</Title>
         </>
       ) : (
         <>
